@@ -64,7 +64,7 @@ module Nesta
       end
     
       def self.configuration
-        file = File.join(File.dirname(__FILE__), *%w[.. config config.yml])
+        file = File.join(File.dirname(__FILE__), *%w[.. .. config config.yml])
         self.yaml ||= YAML::load(IO.read(file))
       end
       
