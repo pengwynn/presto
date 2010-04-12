@@ -1,0 +1,72 @@
+repo: ajaxorg/o3
+date: Tue Feb 23 03:49:00 -0600 2010
+categories: github,javascript,server-side
+
+#  Ajax.org O3: Collection of C++ components exposed through a JavaScript API
+
+While at [FOWA 2010](http://events.carsonified.com/fowa/2010/miami/), [Adam Stacoviak](http://adamstacoviak.com/) caught up with the guys and gals at [Ajax.org](http://ajax.org). And since we've been on this Node.js kick for a bit now, maybe it's time we introduce you to the guys at Ajax.org and what they've been doing with C++ and JavaScript to make the Ajax.org Platform APF and Ajax.org O3 provide developers with easy to use libraries and tools in order to make the browser the dominant application platform.
+
+Definitely check out their codes and follow them on Twitter [@ajax_org](http://twitter.com/ajax_org).
+
+<img src="http://farm5.static.flickr.com/4041/4379158691_4739255901.jpg" title="Ajax.org Crew" class="centered" />
+
+Photo courtesy of our friend [Kevin Milden](http://twitter.com/kMilden) of [New Leaders](http://newleaders.com/).
+
+Oh, and for those VC's or groups that provide funding to companies that are developing Open Source software, [Ruben](http://twitter.com/javruben) (CEO) and [Rik](http://twitter.com/rikarends) (CTO) are looking to gain funding to take them to the next level.
+
+#### Ajax.org O3
+
+[Ajax.org O3](http://www.ajax.org/#o3) is a collection of C++ components which are exposed through a JavaScript API. On top of that it's also a library that allows you to create those components. Ajax.org O3 allows you to run the same code anywhere:
+
+* Optimized for speed and security
+* Same API's everywhere
+* Runtime environments
+
+<object width="400" height="250"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=7940082&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=7940082&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="250"></embed></object>
+
+<object width="400" height="250"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=7964239&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=7964239&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="250"></embed></object>
+
+#### Example of the O3 File API
+
+    var root = o3.fs;
+    var files = root.children;
+
+    //Iterating the files in a folder
+    o3.out("Current dir: " + root.path);
+    files.each(function(file){
+        o3.out([
+            file.name, 
+            file.size, 
+            file.modifiedDate
+        ].join(", "));
+    });
+
+    //Read a file
+    o3.out(root.get("file.txt").data);
+
+    //Create and write a new (or existing) file
+    root.get("newfile.txt").data = "test";
+
+    //Append to a file
+    if (root.get("newfile.txt").exist)
+        root.get("newfile.txt").data += "test";
+
+    //Write binary data
+    var img = new o3.image();
+    //fill img data here
+    root.get("photo.jpg").data = img;
+
+    //Or access the blob directly:
+    root.get("photo.jpg").blob = img.blob;
+
+#### Ajax.org Platform
+
+[Ajax.org Platform](http://www.ajax.org/#home) is a pure javascript application framework for creating real-time collaborative applications that run in the browser. Ajax.org Platform radically changes the way you write applications:
+
+* Live markup
+* Markup and JSON api
+* Collaborative backbone
+* 100% open source software
+
+[[Homepage](http://www.ajax.org/)] [[O3 on GitHub](http://github.com/ajaxorg/o3)] [[Ajax.org O3](http://www.ajax.org/#o3)] 
+[[Ajax.org Platform](http://www.ajax.org/#home)]

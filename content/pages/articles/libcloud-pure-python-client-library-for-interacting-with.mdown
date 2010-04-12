@@ -1,0 +1,11 @@
+repo: http://incubator.apache.org/libcloud/
+date: Mon Dec 14 16:37:47 -0600 2009
+categories: python,apache,svn,cloud
+
+#  libcloud: Pure Python client library for interacting with cloud server providers
+
+libcloud is a pure python client library for interacting with many of the popular cloud server providers including: EC2, EC2-EU, Slicehost, Rackspace, Linode, VPS.net, RimuHosting, vCloud and Terremark
+
+> libcloud was originally created by the folks over at Cloudkick, but has since grown into an independent free software project licensed under the Apache License (2.0).
+
+[[SVN Source](https://svn.apache.org/repos/asf/incubator/libcloud/trunk/)] [[Homepage](http://incubator.apache.org/libcloud/)]

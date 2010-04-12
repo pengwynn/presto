@@ -1,0 +1,18 @@
+repo: appcelerator/titanium_mobile
+date: Mon Nov 30 20:21:45 -0600 2009
+categories: github,iphone,android,releases
+
+#  Appcelerator Titanium Mobile 0.8.0 is out
+
+[Appcelerator](http://appcelerator.com) released version 0.8.0 of Titanium Mobile which allows developers to build native iPhone and Android apps using HTML, CSS, and JavaScript. New in this release:
+
+* Native Map Support
+* Access to Contacts
+* Native Coverflow View (iPhone only)
+* Push Notifications (iPhone only)
+* Custom Table Views and Grouped Views
+* Embedded SQLite database file support
+* Facebook Connect for Android
+* Record Video (iPhone only)
+
+[[Product page]](http://www.appcelerator.com/products/titanium-mobile/) [[Source on GitHub]](http://github.com/appcelerator/titanium_mobile) [[Changelog]](http://www.codestrong.com/timobile/changelog/)

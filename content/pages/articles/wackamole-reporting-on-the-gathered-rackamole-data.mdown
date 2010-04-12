@@ -1,0 +1,11 @@
+repo: derailed/wackamole
+date: Mon Dec 07 04:42:25 -0600 2009
+categories: github,rack,ruby
+
+#  Wackamole: Reporting on the gathered Rackamole data
+
+This is a companion rails app for the [Rackamole framework](http://thechangelog.com/post/273051493/rackamole-track-user-interactions-with-your-web-site) which provides for recording interactions with your rack applications. Wackamole allows you to view, filter and drilldown on the collected moled information, hence allowing you to observe your applications live in the wild.
+
+Wackamole gives you pragmatic information on whether to tackle new features, take a look at performance or fix bugs on your next iteration.
+
+[[code on GitHub](http://github.com/derailed/wackamole)]

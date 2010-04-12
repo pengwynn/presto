@@ -1,0 +1,23 @@
+repo: aslakhellesoy/aruba
+date: Sat Feb 13 21:14:34 -0600 2010
+categories: github,testing,cucumber,ruby,gems,command-line,cli
+
+#  aruba - Cucumber steps for testing your command line apps
+
+Terminal junkies rejoice! Now you can use [Cucumber](http://cukes.info) to test your command line interfaces just like you do for your web apps. [Aruba](http://github.com/aslakhellesoy/aruba) from Cucumber creator [Aslak Hellesøy](http://github.com/aslakhellesoy) provides familiar step definitions for testing output, exit statuses, and file system commands. Here's an example feature file for testing exit statuses:
+
+<script src="http://gist.github.com/303804.js?file=aruba_exit.feature"></script>
+
+Aruba provides the exit status step:
+
+<script src="http://gist.github.com/303804.js?file=steps.rb"></script>
+
+To use Aruba just install the gem
+
+    sudo gem install aruba
+
+and then require it in your `env.rb` or any file under `features/support`
+
+    require 'aruba'
+
+[[Source on GitHub](http://github.com/aslakhellesoy/aruba)] [[Cucumber homepage](http://cukes.info)]

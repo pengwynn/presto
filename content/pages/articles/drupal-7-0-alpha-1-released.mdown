@@ -1,0 +1,18 @@
+repo: mikl/drupal
+date: Fri Jan 15 13:07:44 -0600 2010
+categories: github,drupal,php
+
+#  Drupal 7.0 Alpha 1 released
+
+> After nearly two years of development, we are proud to announce the release of the first alpha version of the Drupal 7.x family. This alpha includes a tremendous number of new features and new under-the-hood improvements for both users and developers.
+
+#### What's new, what's changed?
+
+* Revamped User Interface
+* Custom Fields
+* Image Handling
+* Update Manager
+* Front-end "under-the-hood" improvements
+* Back-end "under-the-hood" improvements
+
+[[Mirror on GitHub](http://github.com/mikl/drupal/tree/DRUPAL-7-0-ALPHA1)] [[Official Release](http://drupal.org/drupal-7.0-alpha1)] [[Homepage](http://drupal.org/)]

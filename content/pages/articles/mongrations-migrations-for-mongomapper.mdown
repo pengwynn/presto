@@ -1,0 +1,23 @@
+repo: terrbear/mongrations
+date: Sat Feb 27 09:19:43 -0600 2010
+categories: github,mongodb,mongomapper,rails,migrations,gems
+
+#  Mongrations - migrations for MongoMapper
+
+Why would a schema-less database need migrations? Simple: to help you keep old data fresh as you change your data format. Recently added new columns to your MongoMapper model and need to update old values in your MongoDB collection?  [Terry Heath](http://terrbear.org) gives you [Mongrations](http://github.com/terrbear/mongrations):
+
+    script/generate mongration update_followers_count_for_existing
+
+You'll get a new file with the familiar Rails migration format:
+
+    class UpdateFollowersCountForExisting < MongoMapper::Mongration
+      def self.up
+      end
+ 
+      def self.down
+      end
+    end
+
+Just add your own code to manipulate your data and call `rake db:mongrate`. Mongrations include rake tasks for `db:mongrate:redo`, `db:mongrate:up`, `db:mongrate:down`, `db:mongrate:rollback`.
+
+[[Source on GitHub](http://github.com/terrbear/mongrations)] [[Blog post](http://terrbear.org/?p=249)]

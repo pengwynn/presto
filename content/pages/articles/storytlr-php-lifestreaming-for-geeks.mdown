@@ -1,0 +1,30 @@
+repo: jmhobbs/storytlr
+date: Fri Feb 12 07:47:00 -0600 2010
+categories: github,php,lifestreaming,social-media
+
+#  storytlr - lifestreaming for geeks
+
+Open Source has its own [Circle of Life](http://en.wikipedia.org/wiki/Circle_of_Life). As we discussed in [Episode 0.1.1](http://thechangelog.com/post/360070705/episode-0-1-1-john-nunemaker-from-mongomapper), Open Source creates opportunities for entrepreneurs. Sometimes [those businesses](http://shopify.com) can spin off [their own projects](http://liquidmarkup.org), paving the way for the next round of startups.
+
+Sometimes commercial apps just don't survive, but let's not confuse viable with valuable. Take the case of [Storytlr](http://storytlr.com/), a hosted lifestreaming service which sought to let you remix your social networking interactions into your own "stories." When the hard decision was made to pull the plug on the service at the end of last year, the founders did what many apps have done and handed the source code over to the community. 
+
+The official Storytlr open source project is on [Google Code](http://storytlr.googlecode.com/) but [John Hobbs](http://github.com/jmhobbs) has a [fork on GitHub](http://github.com/jmhobbs/storytlr) that adds:
+
+* A tool to rename users (dangerous if not handled properly)
+* Plugins built in for...
+* Github
+* goodreads
+* Foursquare
+* Stack Overflow
+* Twitter favorites
+* Google Buzz
+* Ability to delete items that are from other sources (not just ones from Storytlr itself)
+* tidy is replaced by htmLawed
+* Misc fixes for issues reported on the Google group
+* Misc fixes from other forks, esp. paths courtesy of Stuart Herbert
+
+For a [live demo](http://stream.abrah.am/), check out [@abraham](http://twitter.com/abraham)'s Storytlr at [http://stream.abrah.am/](http://stream.abrah.am/).
+
+Storytlr runs on PHP (which runs darn near everywhere) and [installation instructions](http://github.com/jmhobbs/storytlr#readme) can be found in the [README](http://github.com/jmhobbs/storytlr#readme).
+
+[[Official Google Code Project](http://storytlr.googlecode.com/)] [[Source on GitHub](http://github.com/jmhobbs/storytlr)]

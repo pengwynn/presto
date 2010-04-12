@@ -1,0 +1,43 @@
+repo: brendanlim/Tradui
+date: Mon Feb 15 08:25:00 -0600 2010
+categories: android,civichacking,github,iphone,haiti
+
+#  Tradui: Civic Hacking for Haiti
+
+<a href="http://www.flickr.com/photos/thechangelog/4358213849/" title="Tradui iPhone Screenshot by The Changelog, on Flickr"><img src="http://farm5.static.flickr.com/4040/4358213849_2852da2bac_o.jpg" width="300" height="523" class="centered" alt="Tradui iPhone Screenshot" /></a>
+
+Across the United States there has been a gathering of people looking for ways to ease the suffering caused by the devastating earthquake that struck Haiti on Jauary 12th, 2010. Three members of [Intridea](http://intridea.com/), [Chris Selmer](http://twitter.com/cselmer), [Brendan Lim](http://twitter.com/brendanlim) and [Jonathan Nelson](http://twitter.com/jonathannelson) stepped up to help with the efforts towards those in need in Haiti by heading to DC to take part in [Crisis Camp DC](http://crisiscampdc.ning.com/).
+
+Their "civic hacking" efforts in DC lead them to develop [Tradui](http://traduiapp.com/).
+
+Tradui is pronounced: Trad - eww - ee
+
+Tradui, Creole for "translate", is an application for the iPhone and Android platforms to translate Creole to English and English to Creole and was built by [Intridea](http://www.intridea.com/) for [Crisis Commons](http://crisiscommons.org/) as part of Crisis Camp DC. Additional work was also done by members of CrisisCamp Haiti on 1/23 in DC, Boston, and Boulder.
+
+#### Built in 15 man hours w/ Appcelerator
+
+We spoke with Brendan Lim, Intridea's mobile application extraordinaire who lead the development of Tradui.
+
+> "From concept to completion, the development for the actual mobile application took 15 man hours. Our biggest initial hurdle to get over was getting our hands on a good dictionary. Then we had to parse it out."
+
+When asked how they were able to keep the development time so short, Brendan replied...
+
+> "That's the beauty of using [Appcelerator's Titanium Development Platform](http://www.appcelerator.com/). We can do builds super quick for both the iPhone and Android platforms."
+
+If you want to learn more about [Appcelerator](http://www.appcelerator.com/) and their exciting open source development platforms, make a note to go back and listen to [Episode 0.0.8 with Marshall Culpepper from Appcelerator](http://bit.ly/tcl-0-0-8) after reading this.
+
+The data for Tradui's Creole to English and English to Creole dictionary was extracted with permission from the HaitiSurf Creole to English Dictionary. Each and every one of the translation capabilities inside Tradui are available offline. That means that no data plans are required. It is completely offline.
+
+#### It's Open Source, spread the word!
+
+In order to spread Tradui to other platforms and uses the code was [open sourced on GitHub](http://github.com/brendanlim/Tradui), allowing the community to fork the project and help with development. Many people have even ported the idea to other platforms.
+
+To learn more head to [traduiapp.com](http://traduiapp.com/)
+
+#### CrisisCamp @ SXSW
+
+If you plan to be in Austin for SXSW and want to take part in some Civic hacking at [CrisisCamp @ SXSW](http://crisiscampsxsw.eventbrite.com/), you can join CrisisCamp and many others March 16-17 to "hack to help" in times of Crisis.
+
+CrisisCamp is hoping to have LIVE streaming video from the event courtesy of [@texascoworking](http://twitter.com/texascoworking)
+
+[[Source on GitHub](http://github.com/brendanlim/Tradui)] [[Homepage](http://traduiapp.com/)]

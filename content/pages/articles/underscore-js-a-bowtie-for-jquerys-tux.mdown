@@ -1,0 +1,7 @@
+repo: documentcloud/underscore
+date: Thu Nov 19 00:00:00 -0600 2009
+categories: github,javascript
+
+#  Underscore.js a bowtie for jQuery's tux
+
+Neat little JavaScript framework from [DocumentCloud](http://documentcloud.org) that includes many convenience methods for arrays and collections.

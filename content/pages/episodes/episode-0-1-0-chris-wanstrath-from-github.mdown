@@ -1,0 +1,10 @@
+date: Mon Jan 25 12:11:26 -0600 2010
+categories: audio,git,interviews
+
+#  Episode 0.1.0 - Chris Wanstrath from GitHub
+
+<script src="http://www.buzzsprout.com/105/2274-episode-0-1-0-chris-wanstrath-from-github.js?player=small" type="text/javascript" charset="utf-8"></script>
+
+**New point release!** Adam and Wynn talk with Chris Wanstrath aka [@defunkt](http://github.com/defunkt) from GitHub about the magic of [Git](http://git-scm.com/), the past, present and future of [GitHub](http://github.com), building a bootstrapped startup and some other cool stuff you’ll just have to hear for yourself.
+
+Stick around until the end when we announce a new feature of The Changelog that will help you keep up with the fast-moving world of open source.

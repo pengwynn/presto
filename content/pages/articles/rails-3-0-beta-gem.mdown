@@ -1,0 +1,13 @@
+repo: rails/rails
+date: Thu Feb 04 21:21:00 -0600 2010
+categories: rails,github,releases,gems,beta
+
+#  Rails 3.0 beta!
+
+After more than a year and over 4000 commits by 250 authors, the Rails 3 Beta is here!
+The Rails 3.0.0.beta gem is now live on Gemcutter:
+
+    sudo gem install tzinfo builder memcache-client rack rack-test rack-mount erubis mail text-format thor bundler i18n
+    sudo gem install rails --pre
+
+[[Source on GitHub](http://github.com/rails/rails)] [[Official CHANGELOG](http://guides.rails.info/3_0_release_notes.html)] [[Ruby gem](http://gemcutter.org/gems/rails/versions/3.0.0.beta)][[Yehuda's blog post](http://www.engineyard.com/blog/2010/rails-3-beta-is-out-a-retrospective/)] 

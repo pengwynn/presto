@@ -1,0 +1,22 @@
+date: Thu Dec 17 09:38:40 -0600 2009
+categories: audio,mongodb,ruby,python,nosql
+
+#  Episode 0.0.7 - Mike Dirolf from 10gen and MongoDB
+
+<script src="http://www.buzzsprout.com/105/1959-episode-0-0-7-mike-dirolf-from-10gen-and-mongodb.js?player=small" type="text/javascript" charset="utf-8"></script>
+
+Adam and Wynn spoke with [Mike Dirolf](http://twitter.com/mdirolf) from [10gen](http://10gen.com) about their fast-growing [MongoDB](http://mongodb.org) project. Mike gave us insight on how MongoDB came about, design decisions, and the future of this cool NoSQL server.
+
+Items mentioned in the show
+
+* Google's [V8 project](http://code.google.com/p/v8/)
+* Mongo's new [Map/Reduce features](http://www.mongodb.org/display/DOCS/MapReduce)
+* Mongo's [BSON storage format](http://www.mongodb.org/display/DOCS/BSON)
+* [MongoMapper](http://github.com/jnunemaker/mongomapper) Ruby ORM from [John Nunemaker](http://twitter.com/jnunemaker)
+* [MongoKit](http://bytebucket.org/namlook/mongokit/wiki/html/introduction.html) Python ORM from [@namlook](http://twitter.com/namlook)
+* [Ming](http://merciless.sourceforge.net/tour.html) from SourceForge
+* [MongoHQ](http://mongohq.com) - MongoDB hosting
+
+Got NoSQL chops? 10gen is hiring. Email jobs [at] 10gen [dot] com. Be sure to bring your community contributions!
+
+[[MongoDB on GitHub](http://github.com/mongodb)] [[Follow @MongoDB](http://twitter.com/mongodb)]

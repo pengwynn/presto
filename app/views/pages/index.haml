@@ -1,0 +1,11 @@
+%h1
+  = @heading
+  %small= @subtitle
+
+#sidebar
+  = partial 'pages/categories'
+  = partial 'pages/feed'
+
+#content
+  - @articles.each do |article|
+    = partial 'pages/summary', :locals => { :article => article, :heading => :h2 }

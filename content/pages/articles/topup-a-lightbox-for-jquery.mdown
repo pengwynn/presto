@@ -1,0 +1,9 @@
+repo: archan937/topup
+date: Tue Nov 24 08:48:00 -0600 2009
+categories: github,javascript,jquery,plugins
+
+#  TopUp - Powerful lightbox plugin for jQuery
+
+Handles images, flash, movies, iframes, DOM elements and raw HTML. Compress and CSS sprite-driven, it weighs in at only 33.4KB. A number of presets and _toptions_ make setup easy.
+
+[[Visit the site](http://gettopup.com/)] [[View the demo](http://gettopup.com/demo)]

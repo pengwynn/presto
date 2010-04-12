@@ -1,0 +1,27 @@
+repo: razorjack/quicksand
+date: Fri Feb 12 08:38:00 -0600 2010
+categories: jquery,,animation,css3,design,github,javascript,plugins,video
+
+#  Quicksand: Awesome jQuery plugin to filter/animate HTML lists
+
+Quicksand from [Jacek Galanciak](http://github.com/razorjack) is a jQuery plugin to help you filter and animate items in an HTML list. 
+
+With code like this:
+
+    $("#content").quicksand($("#data > li"), 
+      {
+        // all the parameters have sensible defaults
+        // and in most cases can be optional
+        duration: 1000,
+        easing: "easeInOutQuad",
+        attribute: "data-id",
+      }
+    );
+
+You can get the eye candy in this [video](http://screenr.com/S1x):
+
+<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0' width='560' height='345'><param name='movie' value='http://screenr.com/Content/assets/screenr_1116090935.swf' /><param name='flashvars' value='i=46757' /><param name='allowFullScreen' value='true' /><embed src='http://screenr.com/Content/assets/screenr_1116090935.swf' flashvars='i=46757' allowFullScreen='true' width='560' height='345' pluginspage='http://www.macromedia.com/go/getflashplayer'></embed></object>
+
+Quicksand depends on [jQuery 1.4+](http://github.com/jquery/jquery) and most any browser that isn't abbreviated IE6.
+
+[[Source on Github](http://github.com/razorjack/quicksand)] [[Homepage](http://razorjack.net/quicksand/)] [[Demo](http://razorjack.net/quicksand/demos/ajax.html)] [[Happy Webbies!](http://www.happywebbies.com/)]

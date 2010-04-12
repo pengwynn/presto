@@ -1,0 +1,13 @@
+repo: rsms/cocui
+date: Thu Nov 26 03:40:00 -0600 2009
+categories: github
+
+#  Functional Cocoa applications using WebKit
+
+Cocoa meets WebKit for more rapid UI development. Cocui is a way to quickly create functional Cocoa applications using WebKit.
+
+[[code](http://github.com/rsms/cocui)] [[video](http://vimeo.com/6600826)] [[blog post](http://blog.hunch.se/2009/09/introduction-to-cocui)]
+
+Hat tip: [@henrik](http://twitter.com/henrik): [http://twitter.com/henrik/status/6077108373](http://twitter.com/henrik/status/6077108373)
+
+> Cocui looks interesting. Cocoa apps using WebKit. Makes me want to code a decent kiosk.

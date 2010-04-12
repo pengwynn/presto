@@ -1,0 +1,15 @@
+repo: http://www.mozilla.com/en-US/firefox/3.6b2/releasenotes/
+date: Tue Nov 10 00:00:00 -0600 2009
+categories: firefox,css3,javascript,releases
+
+#  Firefox 3.6 beta 2
+
+Over 190 bug fixes and several cool new features for developers including
+
+* -moz-background-size
+* -moz-linear-gradient and -moz-radial-gradient properties, is supported for background-image
+* multiple background images
+* @font-face now supports the new WOFF web font file format
+* HTML5 video supports poster frames
+* The multiple attribute is now supported on HTMLInputElement
+* Gecko 1.9.2 introduces JavaScript 1.8.2

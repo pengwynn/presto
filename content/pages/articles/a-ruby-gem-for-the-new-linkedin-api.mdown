@@ -1,0 +1,9 @@
+repo: pengwynn/linkedin
+date: Sun Nov 29 19:23:00 -0600 2009
+categories: github,ruby,gems,linkedin
+
+#  A Ruby gem for the new LinkedIn API
+
+LinkedIn launched its new [API](http://developer.linkedin.com) last week, allowing any developer brave enough to implement OAuth to integrate with one of the largest social networks around. This new Ruby gem makes it easier to integrate your Ruby app with LinkedIn.
+
+[[source on GitHub](http://github.com/pengwynn/linkedin)] [[Blog article introduction](http://wynnnetherland.com/2009/11/link-linkedin-into-your-next-ruby-application/)]

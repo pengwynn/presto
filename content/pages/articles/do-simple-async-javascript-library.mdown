@@ -1,0 +1,64 @@
+repo: creationix/do
+date: Thu Feb 18 09:01:00 -0600 2010
+categories: github,javascript,nodejs,async,libraries
+
+#  do - simple async JavaScript library
+
+At the risk of having to change our name to Changelog.js [as some have suggested](http://twitter.com/jsconf/status/9237686006), we feature another cool JavaScript library. [Do](http://github.com/creationix/do) from [Tim Caswell](http://twitter.com/creationix) who brought us the [How To Node blog](http://howtonode.org/).
+
+So what does Do do? First, it adds higher level processing for [continuables](http://boshi.inimino.org/3box/asof/1263250371783/fileIO/README.html), the callback pattern for asynchronous processing in Node.js.
+
+As Tim explains:
+
+> A continuable is a function that returns a curried version of itself instead of a result directly. The last two arguments are the callback and the errback. So a continuable won't execute until you attach callbacks to it:
+
+    function divide(a, b) { return function (callback, errback) {
+      // the timeout it to prove that we're working asynchronously
+      setTimeout(function () {
+        if (b === 0) {
+          errback(new Error("Cannot divide by 0"));
+        } else {
+          callback(a / b);
+        }
+      }); 
+    }}
+    
+    
+    divide(100, 10)(function (result) {
+      puts("the result is " + result);
+    }, function (error) {
+      throw error;
+    });
+
+Building on continuables, Do adds two more important features.
+
+#### Do.parallel
+
+'Do.parallel' takes an array of actions and runs them in parallel
+
+    Do.parallel(
+      Do.read("/etc/passwd"),
+      Do.read(__filename)
+    )(function (passwd, self) {
+      // Do something
+    }, error_handler);
+
+#### Do.chain
+
+`Do.chain` chains several actions together in the familiar jQuery style:
+
+    Do.chain(
+      Do.read(__filename),
+      function (text) { 
+        return Do.save("newfile", text);
+      },
+      function () {
+        return Do.stat("newfile");
+      }
+    )(function (stat) {
+      // Do something
+    }, error_handler);
+
+Check out the [README](http://github.com/creationix/do#readme) for full docs as well as other functions in Do.
+
+[[Source on GitHub](http://github.com/creationix/do)]

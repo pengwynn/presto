@@ -1,0 +1,23 @@
+repo: webroar/webroar
+date: Sat Nov 28 13:43:00 -0600 2009
+categories: github,rack,rails,server
+
+#  WebROaR: Ruby/Rack/Rails Application Server
+
+[WebROaR](http://webroar.in/) aims to make the deployment of Ruby on Rails applications more easier, and provide an integrated solution to monitor the performance of the application and track its exceptions. This is made possible by a simple and easy to use admin panel of the server.
+
+It also is the best performing server as per the developers [benchmarks](http://webroar.in/blog/2009/11/25/comparison-of-rails-deployment-stacks-2). Although, they do encourage you to perform your own tests and arrive at the same conclusion.
+
+Features:
+
+* Simplified deployment with maximum performance
+* Runs Ruby on Rails as well as other Rack compliant applications
+* Run multiple applications simultaneously
+* Intelligent load balancing
+* Dynamically reap stuck Ruby processing instances
+* Provides run time performance data for the deployed applications
+* Generates notifications in case exceptions occur in any of the deployed applications
+
+Hat tip: [@igrigorik](http://twitter.com/igrigorik) - [http://twitter.com/igrigorik/status/6143783082](http://twitter.com/igrigorik/status/6143783082)
+
+[[code at GitHub](http://github.com/webroar/webroar)] [[homepage](http://webroar.in/)] [[documentation](http://github.com/webroar/webroar#readme)]

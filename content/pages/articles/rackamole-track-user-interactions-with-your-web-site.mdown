@@ -1,0 +1,11 @@
+repo: derailed/rackamole
+date: Mon Dec 07 04:41:20 -0600 2009
+categories: github,rack,ruby
+
+#  Rackamole: Track user interactions with your web site
+
+Rackamole is a rack application that tracks user's interactions with your web site. This is not about page hits. Rackamole captures the very essence of a user's activity by recording various elements of a request that occurs within your application.
+
+Using Rackamole you are able to see which feature is a hit or a bust. As an added bonus, you can also track performance and exceptions that might have escaped your test suites or alpha env.
+
+[[code on GitHub](http://github.com/derailed/rackamole)]

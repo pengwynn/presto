@@ -1,0 +1,8 @@
+date: Sun Dec 06 20:14:41 -0600 2009
+categories: rails,,audio,javascript,ruby,cloud
+
+#  Episode 0.0.5 - Document Cloud
+
+We interviewed [Jeremy Ashkenas](http://github.com/jashkenas) Lead Developer at [DocumentCloud](http://documentcloud.org) about their effort to revolutionize the way media organizations gather news. Jeremy discusses their open source projects [CloudCrowd](http://github.com/documentcloud/cloud-crowd), [Underscore.js](http://github.com/documentcloud/underscore), and [JAMMIT](http://github.com/documentcloud/jammit) that they've released along the way.
+
+<script src="http://www.buzzsprout.com/105/1908-episode-0-0-5-documentcloud.js?player=small" type="text/javascript" charset="utf-8"></script>

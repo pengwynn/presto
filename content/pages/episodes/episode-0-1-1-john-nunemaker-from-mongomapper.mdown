@@ -1,0 +1,22 @@
+date: Fri Jan 29 14:19:00 -0600 2010
+categories: mongodb,mongomapper,rails,ruby,audio,episodes
+
+#  Episode 0.1.1 - John Nunemaker from Ordered List, RailsTips.org, and MongoMapper
+
+<script src="http://www.buzzsprout.com/105/2345-episode-0-1-1-john-nunemaker-from-ordered-list-rails-tips-and-mongomapper.js?player=small" type="text/javascript" charset="utf-8"></script>
+
+Adam and Wynn caught up with [John Nunemaker](http://github.com/jnunemaker) from [Ordered List](http://orderedlist.com) to chat about open source, improving your craft, building a business, and how MongoDB has changed his life.
+
+Items mentioned in the show:
+
+- John's Ruby projects The [Twitter gem](http://github.com/jnunemaker/twitter), [HTTParty](http://github.com/jnunemaker/httparty), [Crack](http://github.com/jnunemaker/crack), [MongoMapper](http://github.com/jnunemaker/mongomapper)
+- [MongoHQ](http://mongohq.com), shared MongoDB hosting
+- The GitHub [Fork Queue](http://github.com/blog/270-the-fork-queue)
+- [Harmony](http://harmonyapp.com), the new CMS from [Ordered List](http://orderedlist.com)
+- [Moonshine](http://github.com/railsmachine/moonshine)
+- [Puppet](http://github.com/reductivelabs/puppet)
+- [Navvy](http://thechangelog.com/post/356754061/navvy-simple-database-agnostic-ruby-background-job-proce)
+- [Liquid Markup](http://liquidmarkup.org) from [Tobias Lütke](http://github.com/tobi) of [Shopify](http://www.shopify.com/)
+- [Redis](http://code.google.com/p/redis/)
+- [Resque](http://github.com/defunkt/resque)
+

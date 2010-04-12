@@ -1,0 +1,13 @@
+repo: ry/node
+date: Sat Nov 28 13:22:00 -0600 2009
+categories: github
+
+#  #nodejs - Evented I/O for v8 JavaScript
+
+Node's goal is to provide an easy way to build scalable network programs. Node is similar in design to and influenced by systems like Ruby's [Event Machine](http://rubyeventmachine.com/) or Python's [Twisted](http://twistedmatrix.com/). Node takes the event model a bit further—it presents the event loop as a language construct instead of as a library.
+
+[Ryan](https://twitter.com/ryah) just [announced the release of Version 0.1.20](http://groups.google.com/group/nodejs/browse_thread/thread/487703af7a9a004).
+
+Hat tip: [@grantmichaels](http://twitter.com/grantmichaels) - [http://twitter.com/grantmichaels/status/6144829957](http://twitter.com/grantmichaels/status/6144829957) 
+
+[[code at GitHub](http://github.com/ry/node)] [[homepage](http://nodejs.org/)] [[documentation](http://nodejs.org/api.html)]

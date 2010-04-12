@@ -1,0 +1,11 @@
+repo: jadb/capcake
+date: Fri Jan 22 10:34:14 -0600 2010
+categories: github,php,cakephp,capistrano,deployment
+
+#  Capcake: Deploy CakePHP apps using Capistrano
+
+[Capistrano](http://github.com/capistrano/capistrano) isn't just for Rubyists you know. [@jadb](http://github.com/jadb) wants to bring all you CakePHP folks to the party too:
+
+> Capcake extends Capistrano, removing the rails-ism, replacing them by more cake-ish ones
+
+[[Source on GitHub](http://github.com/jadb/capcake)]

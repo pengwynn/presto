@@ -1,0 +1,10 @@
+date: Fri Nov 27 05:41:00 -0600 2009
+categories: audio,go,programing language,google,go code
+
+#  Episode 0.0.3 - Google's Go Programming Language (21:40)
+
+Wynn and I caught up with [Rob Pike](http://research.google.com/people/r/), Principal Engineer at [Google](http://www.google.com/) and Tech Lead for the [Google Go](http://go-lang.org/) team. The primary topic was, of course, Google's new Open Source programing language, [Go](http://go-lang.org/).
+
+<script src="http://www.buzzsprout.com/105/1861-episode-0-0-3-google-s-go-programming-language.js?player=small" type="text/javascript" charset="utf-8"></script>
+
+[[download](http://changelogshow.com/105/1861-episode-0-0-3-google-s-go-programming-language.mp3)] [[listen in itunes](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=341623264)] [[write a review in itunes](https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?id=341623264&type=Podcast)]

@@ -1,0 +1,9 @@
+repo: technoweenie/twitter-node
+date: Sat Jan 16 20:24:45 -0600 2010
+categories: github,node-js,twitter,javascript
+
+#  twitter-node: node.js based tweetstreaming
+
+Another interesting use of the super-fast [node.js](http://nodejs.org/), twitter-node from [@technoweenie](http://twitter.com/technoweenie) creates a streaming connection with twitter, and pushes any incoming statuses to a tweet event.
+
+[[Source on GitHub](http://github.com/technoweenie/twitter-node)] [[More on node.js](http://thechangelog.com/tagged/node-js)]

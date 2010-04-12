@@ -1,0 +1,9 @@
+repo: jquery/jquery-compat-1.3
+date: Wed Jan 13 23:27:00 -0600 2010
+categories: github,jquery,javascript,compatibility
+
+#  jQuery Compat 1.3: Backwards compatibility plugin for jQuery 1.3
+
+Looks like [John](http://ejohn.org/) is just adding in the initial plugin...but this is the repo to watch if you need backwards compatibility for [jQuery](http://jquery.com/) 1.3 (to be used with jQuery 1.4).
+
+[[Source on GitHub](http://github.com/jquery/jquery-compat-1.3)]

@@ -1,0 +1,13 @@
+repo: reductivelabs/puppet-dashboard
+date: Mon Dec 07 03:02:08 -0600 2009
+categories: github,puppet,automation,ruby
+
+#  Puppet Dashboard: A web interface w/ node management and reporting tools
+
+The Puppet Dashboard is a Puppet web interface that provides node management and reporting tools. Nodes can be exported in YAML format, allowing the dashboard to be used as an external node classification tool.
+
+Requires `ruby >= 1.8.1` and `sqlite3` (by default).
+
+Hat tip: [@davewongillies](http://twitter.com/davewongillies) [http://twitter.com/davewongillies/statuses/6415696099](http://twitter.com/davewongillies/statuses/6415696099)
+
+[[code on GitHub](http://github.com/reductivelabs/puppet-dashboard)]

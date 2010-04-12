@@ -1,0 +1,16 @@
+repo: imathis/fancy-buttons
+date: Mon Nov 23 16:19:00 -0600 2009
+categories: sass,,github,compass,css,buttons
+
+#  Create fancy buttons with Compass and Sass
+
+[Brandon Mathis](http://brandonmathis.com) released a [Compass](http://compass-style.org) extension to create fancy CSS buttons that includes:
+
+1. Button reset - to get browsers to the same starting point
+2. Rounded corners, Text shadows, and Gradients + vendoring
+3. Background image fallback
+4. Padding, Text size, line-height, etc
+5. Default, Hover, and Active states for all styles
+6. Lots of tricky color math to generate beautiful gradients from one color
+
+[[blog post](http://brandonmathis.com/blog/2009/11/19/fancy-buttons-are-here/)] [[video](http://vimeo.com/7723529)] [[code](http://github.com/imathis/fancy-buttons)]

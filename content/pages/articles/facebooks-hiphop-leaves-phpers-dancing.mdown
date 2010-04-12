@@ -1,0 +1,18 @@
+repo: facebook/hiphop-php
+date: Wed Feb 03 21:24:00 -0600 2010
+categories: github,php,facebook,scaling,performance
+
+#  Facebook's HipHop leaves PHPers dancing
+
+When Twitter faced early scaling issues, much was made of decisions to rewrite large portions of the Rails site in Scala. 
+
+Facebook however has decided to double down on PHP, releasing [HipHop](http://github.com/facebook/hiphop-php), a PHP source code transfomer:
+
+> HipHop programmatically transforms your PHP source code into highly optimized C++ and then uses g++ to compile it. HipHop executes the source code in a semantically equivalent manner and sacrifices some rarely used features — such as eval() — in exchange for improved performance. HipHop includes a code transformer, a reimplementation of PHP's runtime system, and a rewrite of many common PHP Extensions to take advantage of these performance optimizations.
+
+** Update **
+
+We posted this blind yesterday when GitHub was unavailable. Looks like the repo isn't public yet. Keep an eye out. [GitHub explore](http://github.com/explore) shows five watchers...
+
+
+[[Source on GitHub](http://github.com/facebook/hiphop-php)] [[Announcement](http://developers.facebook.com/news.php?blog=1&story=358)]

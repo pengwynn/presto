@@ -1,0 +1,16 @@
+repo: atebits/SimFinger
+date: Wed Feb 17 21:33:49 -0600 2010
+categories: github,iphone,screencasting,tools,palm,palm-pre,mac,cocoa
+
+#  SimFinger - make awesome screencasts of your mobile apps on your Mac
+
+[SimFinger](http://github.com/atebits/SimFinger) is a screencasting tool from Loren Brichter aka [@atebits](http://twitter.com/atebits), author of popular apps like [Tweetie](http://www.atebits.com/tweetie-iphone/) for the iPhone as well as the [desktop](http://www.atebits.com/tweetie-mac/). SimFinger is a Cocoa app for the Mac that adds some polish to your mobile app screencasts by providing:
+
+* A frame that sits on top of the simulator and adds shine and an iPhone 3G look
+* A halo around the pointer to indicate touch events
+* Ability to set the carrier text 
+* Fake apps (and dock badge counts) so that your app isn't so lonely on the home screen.
+
+Notice that we say 'mobile apps' and not 'iPhone' or 'Touch' apps because a [fork](http://github.com/kreutz/SimFinger) from [@kreutz](http://github.com/kreutz) adds support for the PalmPre simulator.
+
+[[Source on GitHub](http://github.com/atebits/SimFinger)] [[Original blog post](http://blog.atebits.com/2009/03/not-your-average-iphone-screencast/)] [[Palm fork](http://github.com/kreutz/SimFinger)]

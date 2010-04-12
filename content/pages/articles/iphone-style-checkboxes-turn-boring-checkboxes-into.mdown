@@ -1,0 +1,13 @@
+repo: tdreyno/iphone-style-checkboxes
+date: Mon Jan 25 05:11:00 -0600 2010
+categories: github,iphone,ui,javascript,jquery,prototype,scriptaculous
+
+#  iphone-style-checkboxes: Turn boring checkboxes into iPhone-style toggle switches
+
+Progressively enhance your forms by turning boring old checkboxes into stylish iPhone-style toggle switches.
+
+Dependencies: jQuery or Prototype + Scriptaculous
+
+<a href="http://github.com/tdreyno/iphone-style-checkboxes"><img src="http://farm3.static.flickr.com/2690/4303605014_8f06e61c85_o.jpg" /></a>
+
+[[Source on GitHub](http://github.com/tdreyno/iphone-style-checkboxes)] [[Homepage](http://tdreyno.github.com/iphone-style-checkboxes/)]

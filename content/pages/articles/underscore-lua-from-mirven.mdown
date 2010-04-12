@@ -1,0 +1,9 @@
+repo: mirven/underscore.lua
+date: Tue Dec 08 08:37:07 -0600 2009
+categories: github,lua,underscore,scripting,library
+
+#  Underscore.lua - Utility library for Lua
+
+Inspired by [Underscore.js](http://thechangelog.com/post/255049350/underscore-js-a-bowtie-for-jquerys-tux) from [DocumentCloud](http://thechangelog.com/post/272530971/episode-0-0-5-document-cloud), Underscore.lua brings a host of utility functions to Lua.
+
+[[Source on Github](http://github.com/mirven/underscore.lua)] [[Homepage](http://mirven.github.com/underscore.lua/)] [[Follow @mirven](http://twitter.com/mirven)]

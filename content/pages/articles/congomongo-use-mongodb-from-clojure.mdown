@@ -1,0 +1,22 @@
+repo: somnium/congomongo
+date: Wed Jan 20 09:28:00 -0600 2010
+categories: github,clojure,mongodb,clojars
+
+#  congomongo: Use MongoDB from Clojure
+
+A close-to-the-metal wrapper for the MongoDB Java driver, congomongo brings all that cool NoSQL goodness to Clojure:
+
+Here's an ad-hoc query example from the [README](http://github.com/somnium/congomongo#readme):
+
+    (fetch-one
+      :points
+      :where {:x {:$gt 10  
+                  :$lt 20}
+              :y 42
+              :z {:$gt 500}})
+
+    => {:x 12, :y 42, :z 504,  :_ns "points", :_id ... }
+
+[@purcell's fork](http://github.com/purcell/congomongo/commit/6bf22de379996dfeac85d5ff5f3093e331acb783) adds [GridFS](http://www.mongodb.org/display/DOCS/GridFS) support. Woot!
+
+[[Source on GitHub](http://github.com/somnium/congomongo)][[congomongo on Clojars](http://clojars.org/search?q=congomongo)]

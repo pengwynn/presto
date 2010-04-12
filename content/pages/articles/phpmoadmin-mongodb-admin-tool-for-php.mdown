@@ -1,0 +1,27 @@
+repo: MongoDB-Rox/phpMoAdmin-MongoDB-Admin-Tool-for-PHP
+date: Fri Jan 22 11:51:00 -0600 2010
+categories: github,php,mongodb,admin
+
+#  phpMoAdmin: MongoDB admin tool for PHP
+
+Extra (or deducted, depending on your point of view) points for an SEO optimized repo name, phpMoAdmin aims to be mo' admin than phpMyAdmin by providing a [MongoDB](http://mongodb.org) administration tool for PHP. phpMoAdmin is built on a stripped-down version of the Vork high-performance framework.
+
+### Features include:
+
+* Database
+  * List
+  * Create/drop
+  * Repair
+* Collection
+  * Show collections
+  * Create/drop collection
+  * List indexes
+  * Create/drop indexes
+* Data objects
+  * Show objects with 3-different viewing options (full, compact & uniform)
+  * Create/delete objects
+  * Edit object data
+* Mongo GridFS
+  * GridFS objects automatically link GridFS chunks to GridFS files
+
+[[Source on GitHub](http://github.com/MongoDB-Rox/phpMoAdmin-MongoDB-Admin-Tool-for-PHP)] [[Homepage](http://www.phpmoadmin.com/)]

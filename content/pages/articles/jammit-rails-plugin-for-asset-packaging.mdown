@@ -1,0 +1,8 @@
+repo: documentcloud/jammit
+date: Fri Nov 20 00:00:00 -0600 2009
+categories: github,rails,javascript,assets
+
+#  JAMMIT - Rails plugin for asset packaging
+
+> Jammit is an industrial strength asset packaging library for Rails, providing both the CSS and JavaScript concatenation and compression that you'd expect, as well as ahead-of-time gzipping, built-in JavaScript template support, and optional Data-URI / MHTML image embedding.
+

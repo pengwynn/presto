@@ -1,0 +1,25 @@
+repo: smeevil/fresnel
+date: Mon Dec 07 02:05:00 -0600 2009
+categories: github,ruby,lighthouse,api
+
+#  Fresnel: A Console app to manage Lighthouse
+
+Fresnel is a console manager to [LighthouseApp.com](http://lighthouseapp.com) using the official [Lighthouse API](http://lighthouseapp.com/api). Using Fresnel you can browse your complete lighthouse account.
+
+To get started just install the gem `gem install fresnel`.
+
+#### Current features:
+
+* list projects
+* list ticket bins
+* list tickets (also in bins)
+* create tickets
+* assign tickets
+* comment on tickets
+* state changes
+
+Hat tip: [@smeevil](http://twitter.com/smeevil) - [http://twitter.com/smeevil/statuses/6301418208](http://twitter.com/smeevil/statuses/6301418208)
+
+> Made our (@narnach and me) new #lighthouseapp console tool #fresnel publicly available on github: http://bit.ly/6EG8TU, Enjoy!
+
+[[code on GitHub](http://github.com/smeevil/fresnel)]

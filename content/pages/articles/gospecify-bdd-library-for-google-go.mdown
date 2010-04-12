@@ -1,0 +1,9 @@
+repo: stesla/gospecify
+date: Thu Dec 17 09:09:00 -0600 2009
+categories: github,go,bdd,testing
+
+#  Gospecify - BDD library for Google Go
+
+For those familiar with [RSpec](http://rspec.info/), Gospecify provides a BDD syntax for testing your [Go](http://golang.org) code.
+
+[[Source on GitHub](http://github.com/stesla/gospecify)] [[From @stesla](http://twitter.com/stesla)]

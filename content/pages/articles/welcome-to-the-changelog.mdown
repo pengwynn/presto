@@ -1,0 +1,15 @@
+date: Thu Nov 05 18:03:00 -0600 2009
+categories: 
+
+#  Welcome to The Changelog
+
+If you're like us, following your private Github feed is a bit like drinking from the Twitter firehose. So how do you keep up? There is a constant flow of new and newly rev'd Open Source projects, and knowing what's what is a task in and of its self.
+
+Here's what you need to do. Subscribe to this little tumble log and we'll help you keep up!
+
+### Blog
+
+[[Subscribe w/ RSS (blog)](http://feeds.feedburner.com/thechangelog)]
+
+### Audio
+[[Subscribe on iTunes](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=341623264)] [[Subscribe w/ RSS (audio)](http://feeds.feedburner.com/changelogshow)]

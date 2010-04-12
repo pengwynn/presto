@@ -1,0 +1,35 @@
+.breadcrumb
+  %a{ :href => "/" } Home
+  &gt;
+  - if @page.parent
+    %a{ :href => @page.parent.abspath }= @page.parent.heading
+    &gt;
+  = @page.heading
+
+#sidebar
+  = partial 'pages/categories'
+  = partial 'pages/feed'
+
+#content
+  - if @page.date
+    .date= format_date(@page.date)
+  ~ @page.to_html
+
+  - @page.pages.each do |page|
+    = partial 'pages/summary', :locals => { :article => page, :heading => :h3 }
+
+  - unless @page.articles.empty?
+    %h2.articles= "Articles on #{@page.heading}"
+  
+  - @page.articles.each do |article|
+    = partial 'pages/summary', :locals => { :article => article, :heading => :h3 }
+
+  - unless @page.categories.empty?
+    .categories
+      Filed under
+      - @page.categories.each do |category|
+        %a{ :href => category.abspath }= category.heading
+
+  = partial 'pages/social'
+  = partial 'pages/feed', :locals => { :title => @site_title }
+  = partial 'pages/comments'

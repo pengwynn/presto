@@ -1,0 +1,9 @@
+repo: tobeytailor/gordon
+date: Wed Jan 13 15:40:00 -0600 2010
+categories: flash,javascript,github
+
+#  Gordon: An open source Flash™ runtime written in pure JavaScript 
+
+Wow! Could this be a viable way to get [Flash on the iPhone?](http://twitpic.com/xxmi2). 
+
+[[Source on GitHub](http://github.com/tobeytailor/gordon/)] [[Demos](http://paulirish.com/work/gordon/demos/)] [[Follow @tobeytailor](http://twitter.com/tobeytailor)]

@@ -1,0 +1,11 @@
+repo: devinross/tapkulibrary
+date: Thu Feb 04 21:35:00 -0600 2010
+categories: UI,iphone,libraries,obj-c,github
+
+#  TapkuLibrary - Beautiful iPhone UI class library 
+
+TapkuLibrary from [Devin Ross](http://devinsheaven.com) is a collection of UI classes for iPhone development. The [README](http://github.com/devinross/tapkulibrary#readme) includes detailed installation instructions and is full of gorgeous screenshots:
+
+<a href="http://github.com/devinross/tapkulibrary"><img src="http://farm5.static.flickr.com/4072/4247861508_046420c6fb_o.jpg" alt="screen shot" height="150" width=470" /></a>
+
+[[Source on GitHub](http://github.com/devinross/tapkulibrary)] [[Tapku](http://tapku.com/)]

@@ -1,0 +1,21 @@
+repo: jdalton/fusebox
+date: Fri Jan 22 12:29:13 -0600 2010
+categories: github,javascript,monkey-patching
+
+#  fusebox: A safer way to monkey-patch JavaScript?
+
+A standalone version of [FuseJS's fuse.Fusebox()](http://fusejs.com), fusebox provides a sandbox to extend native JavaScript types without worrying about collisions with third-party libraries and scripts.
+
+Example from the [README](http://github.com/jdalton/fusebox#readme):
+
+    var fb = Fusebox();
+    fb.Array.prototype.hai = function() {
+      return fb.String("Oh hai, we have " + this.length + " items.");
+    };
+
+    fb.Array(1, 2, 3).hai(); // "Oh hai, we have 3 items."
+    typeof window.Array.prototype.hai; // undefined
+
+Supported types include `Array`, `Date`, `Function`, `Number`, `Object`, `RegExp`, and `String`. 
+
+[[Source on GitHub](http://github.com/jdalton/fusebox)] [[Introductory screencast](http://screenr.com/4X1)]

@@ -1,0 +1,29 @@
+repo: ryanmcgrath/slidify
+date: Sun Dec 13 20:51:00 -0600 2009
+categories: github,javascript,jquery,plugins
+
+#  Slidify: Lightweight slider plugin for jQuery
+
+A lightweight jQuery plugin that transforms input elements into UI Slider controls:
+
+Example from the README:
+
+    <input type="text" value="0" name="lol" id="lol" class="example">
+    <input type="text" value="0" name="lol2" id="lol2" class="example">
+
+    $(document).ready(function() {
+        $(".example").slidify({
+            width: 400,
+            height: 20,
+            /*
+              wrapperClass/sliderClass are provided by default, 
+              no need to specify if you don't want 
+            */
+            wrapperClass: "slidify_slider_container",
+            sliderClass: "slidify_slider_knob",
+            maxValue: 500,
+            callback: null 
+        });
+    });
+
+[[Source on GitHub](http://github.com/ryanmcgrath/slidify)] [[@ryanmcgrath on Twitter](http://twitter.com/ryanmcgrath)]

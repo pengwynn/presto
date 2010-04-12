@@ -1,0 +1,11 @@
+repo: mrflip/configliere
+date: Thu Jan 07 20:55:00 -0600 2010
+categories: github,ruby,configuration
+
+#  Configliere: lightweight configuration management for Ruby
+
+> Configliere manage settings from many sources: static constants, simple config files, environment variables, commandline options, straight ruby. You don’t have to predefine anything, but you can ask configliere to type-convert, require, document or password-obscure any of its fields. Modules can define config settings independently of each other and the main program.
+
+Bonus points for a hilarious [README](http://github.com/mrflip/configliere#readme).
+
+[[Source on GitHub](http://github.com/mrflip/configliere)]

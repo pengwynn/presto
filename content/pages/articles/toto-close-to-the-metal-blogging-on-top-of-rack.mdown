@@ -1,0 +1,30 @@
+repo: cloudhead/toto
+date: Mon Feb 08 21:00:25 -0600 2010
+categories: github,rack,blogging,toto,heroku,varnish,static
+
+#  toto - Close-to-the-metal blogging on top of Rack
+
+Take a look around the small site web landscape and it's clear we're not in Kansas anymore. It's no longer a foregone conclusion that a new blog or brochure site should be built on a CMS or even web framework. [Toto](http://github.com/cloudhead/toto) is the latest in a rising breed of static page generators.
+
+Toto dumps the database and stores its content in plain text files. Its built on top of Rack and is [Heroku](http://heroku.com) &amp; [Varnish](http://varnish-cache.org/) friendly so that your site will scream on even a free single dyno.
+
+From the [README](http://github.com/cloudhead/toto#readme), here's how Toto works:
+
+* content is entirely managed through git; you get full fledged version control for free.
+* articles are stored as .txt files, with embeded metadata (in yaml format).
+* articles are processed through a markdown converter (rdiscount) by default.
+* templating is done through ERB.
+* toto is built right on top of Rack.
+* toto was built to take advantage of HTTP caching.
+* toto was built with heroku in mind.
+* comments are handled by disqus
+* individual articles can be accessed through urls such as /2009/11/21/blogging-with-toto
+* the archives can be accessed by year, month or day, wih the same format as above.
+* arbitrary metadata can be included in articles files, and accessed from the templates.
+* summaries are generated intelligently by toto, following the :max setting you give it.
+* you can also define how long your summary is, by adding ~ at the end of it (:delim).
+
+To get started quickly, clone the default template [Dorothy](http://github.com/cloudhead/dorothy) and deploy to Heroku in a snap.
+
+[[Source on GitHub](http://github.com/cloudhead/toto)]
+

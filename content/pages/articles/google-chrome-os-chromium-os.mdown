@@ -1,0 +1,16 @@
+date: Tue Nov 24 12:08:00 -0600 2009
+categories: google,os
+
+#  Google Chrome OS = Chromium OS
+
+In July [Google announced](http://googleblog.blogspot.com/2009/07/introducing-google-chrome-os.html) that they were working on Google Chrome OS, an open source operating system for people who spend most of their time on the web.
+
+This past week Google open-source the project as [Chromium OS](http://www.chromium.org/chromium-os).
+
+They say that they're doing this early, a year before Google Chrome OS will be ready for users, because they are eager to engage with partners, the open source community and developers. Which is just awesome!
+
+So, just as with the Google Chrome browser, development will be done in the open from this point on. This means the code is free, accessible to anyone and open for contributions. The Chromium OS project includes their current [code base (git)](http://www.chromium.org/chromium-os/building-chromium-os/getting-the-chromium-os-source-code), [user interface experiments](http://www.chromium.org/chromium-os/user-experience) and some [initial designs](http://www.chromium.org/chromium-os/chromiumos-design-docs) for ongoing development.
+
+Google Chrome OS will be ready for consumers this time next year. [Get on the mailing list](https://services.google.com/fb/forms/googlechromeossignup/) to get updates or if you like building your operating system from source, get involved at [chromium.org](http://chromium.org/).
+
+Watch this [video](http://www.youtube.com/watch?v=0QRO3gKj3qw) to learn more about more about Google Chrome OS.

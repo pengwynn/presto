@@ -1,0 +1,14 @@
+date: Mon Feb 15 15:49:00 -0600 2010
+categories: talks,video,ruby,python
+
+#  Rippin' off Python w/ Chris Wanstrath 
+
+<embed src='http://rubyconf2009.confreaks.com/player.swf' height='291' width='490' allowscriptaccess='always' allowfullscreen='true' flashvars='image=images%2F20-nov-2009-16-20-rippin-off-python-chris-wanstrath-preview.png&file=http%3A%2F%2Frubyconf2009.confreaks.com%2Fvideos%2F20-nov-2009-16-20-rippin-off-python-chris-wanstrath-small.mp4&plugins=viral-1'/>
+
+A great talk from [Chris Wanstrath](http://github.com/defunkt) ([@defunkt](http://twitter.com/defunkt)) on [Python](http://www.python.org/) from a [Rubyist's](http://www.ruby-lang.org/en/) perspective.
+
+We too favor awesome docs for the projects that we feature, peps seem like an awesome concept to support (seriously), and hacking side-by-side with two languages is a nice way to get started with a new language...
+
+Great work Chris on your journey through the various languages you've been able to have fun with. We appreciate you sharing what you've learned along the way.
+
+Also, check out [Episode 0.1.0](http://bit.ly/tcl-0-1-1) w/ Chris.

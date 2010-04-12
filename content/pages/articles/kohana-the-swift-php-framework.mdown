@@ -1,0 +1,14 @@
+repo: kohana/kohana
+date: Fri Feb 05 08:03:31 -0600 2010
+categories: github,php,mongodb,frameworks,mvc
+
+#  Kohana - The Swift PHP Framework
+
+[Kohana](http://github.com/kohana/kohana) is a PHP MVC web framework that aims to be easy, lightweight, and secure. It has no dependencies on PECL or PEAR extensions and uses strict PHP 5 OOP. It uses what it calls "cascading resources" to allow developers to extend the framework without editing the core system.
+
+<img src="http://upload.wikimedia.org/wikipedia/en/1/1c/Kohana-modules.png" height="340" width="400" alt="cascading resources"/>
+
+There is an extensive list of [[modules](http://dev.kohanaphp.com/projects/)], even a MongoDB ORM, [MangoDB](http://github.com/Wouterrr/MangoDB).
+
+[[Source on GitHub](http://github.com/kohana/kohana)] [[Homepage](http://kohanaphp.com/)] [[Docs](http://docs.kohanaphp.com/)]
+

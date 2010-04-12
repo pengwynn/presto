@@ -1,0 +1,8 @@
+date: Thu Feb 18 10:19:00 -0600 2010
+categories: screencast,tail,video
+
+#  Tip: Use filters when tailing The Changelog
+
+It seems our settings icon on http://tail.thechangelog.com is a bit too subtle so we recorded a quick [screencast](http://screenr.com/Dkx) to show you how you can filter the GitHub firehose to see only the open source events you actually care about.
+
+<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0' width='560' height='345'><param name='movie' value='http://screenr.com/Content/assets/screenr_1116090935.swf' /><param name='flashvars' value='i=48205' /><param name='allowFullScreen' value='true' /><embed src='http://screenr.com/Content/assets/screenr_1116090935.swf' flashvars='i=48205' allowFullScreen='true' width='560' height='345' pluginspage='http://www.macromedia.com/go/getflashplayer'></embed></object>

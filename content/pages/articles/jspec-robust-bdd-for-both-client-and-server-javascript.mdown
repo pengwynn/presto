@@ -1,0 +1,55 @@
+repo: visionmedia/jspec
+date: Sun Jan 24 10:16:03 -0600 2010
+categories: github,javascript,bdd,testing,rhino,node-js,jquery,dojo
+
+#  JSpec: Robust BDD for both client and server JavaScript
+
+JSpec from [@visionmedia](http://github.com/visionmedia) wants to be your [BDD](http://en.wikipedia.org/wiki/Behavior_Driven_Development) framework no matter where you run your JavaScript. JSpec supports not only JavaScript in the browser and popular client-side frameworks like jQuery, it also supports server-side JavaScript including Rhino and [Node.js](http://nodejs.org/). 
+
+From the [README](http://github.com/visionmedia/jspec#readme) specs may be written using JSpec grammar:
+
+    describe 'ShoppingCart'
+      before_each
+        cart = new ShoppingCart
+      end
+
+      describe 'addProducts'
+        it 'should add several products'
+          cart.addProduct('cookie')
+          cart.addProduct('icecream')
+          cart.should.have 2, 'products'
+        end
+      end
+
+      describe 'checkout'
+        it 'should throw an error when checking out with no products'
+          -{ cart.clear().checkout() }.should.throw_error EmptyCart
+        end
+      end
+    end
+
+or in pure JavaScript:
+
+    JSpec.describe('ShoppingCart', function(){
+      before_each(function{
+        cart = new ShoppingCart
+      })
+
+      describe('addProducts', function(){
+        it ('should add several products', function(){
+          cart.addProducts('cookie')
+          cart.addProducts('icecream')
+          expect(cart).to(have, 2, 'products')
+        })
+      })
+
+      describe('checkout', function(){
+        it ('should throw an error when checking out with no products', function(){
+          expect(function(){ cart.clear().checkout() }).to(throw_error, EmptyCart)
+        })
+      })
+    })
+
+[[Source on GitHub](http://github.com/visionmedia/jspec)] [[Homepage](http://jspec.info/)]
+
+

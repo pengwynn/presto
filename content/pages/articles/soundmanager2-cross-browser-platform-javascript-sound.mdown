@@ -1,0 +1,19 @@
+repo: scottschiller/SoundManager2
+date: Thu Jan 07 02:26:00 -0600 2010
+categories: github,javascript,sound
+
+#  SoundManager2: Cross-Browser/Platform Javascript Sound API
+
+SoundManager 2 makes it easier to play sounds using Javascript. By wrapping and extending the Flash sound API, SoundManager 2 brings solid cross-browser/platform audio functionality to Javascript.
+
+As seen on [Muxtape](http://muxtape.com/), [SoundCloud](http://soundcloud.com/) / [The Cloud Player](http://www.thecloudplayer.com/) and [8tracks](http://8tracks.com/)
+
+Some of the Basic API Features (Flash 8)
+
+* Load, stop, play, pause, mute, seek, pan and volume control of sounds from Javascript
+* Events: onload, whileloading, whileplaying, onfinish and more
+* ID3V1 and ID3V2 tag support for MP3s (title, artist, genre etc.)
+
+[more...](http://github.com/scottschiller/SoundManager2#readme)
+
+[[Code on GitHub](http://github.com/scottschiller/SoundManager2)] [[Homepage](http://www.schillmania.com/projects/soundmanager2/)]
