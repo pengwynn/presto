@@ -1,9 +1,0 @@
-repo: mattball/MBCoverFlowView
-date: Fri Dec 04 19:28:00 -0600 2009
-categories: github,obj-c,cocoa
-
-#  MBCoverFlowView - open source Cover Flow for Obj-C
-
-Build fantastic iTunes-like scrolling views into your Cocoa apps.   ![screenshot](http://static.tumblr.com/njo56hx/fF8ku5o9d/cover-flow.jpg)
-
-[[Source on GitHub](http://github.com/mattball/MBCoverFlowView)]

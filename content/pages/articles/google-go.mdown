@@ -1,9 +1,0 @@
-repo: http://golang.org
-date: Wed Nov 18 00:00:00 -0600 2009
-categories: google,languages
-
-#  Google Go
-
-Productive as dynamically typed languages with the speed of static typed languages. But don't look for it on Windows...
-
-> We understand that a significant fraction of computers in the world run Windows and it would be great if those computers could run Go programs. However, the Go team is small and we don’t have the resources to do a Windows port at the moment.

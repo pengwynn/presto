@@ -1,9 +1,0 @@
-repo: jamesgolick/friendly
-date: Wed Dec 23 00:43:00 -0600 2009
-categories: nosql,document-oriented,mysql,github
-
-#  Friendly: NoSQL with MySQL in Ruby
-
-Friendly lets you turn MySQL into a document-oriented database. If you are forced to deploy to MySQL, but still want the flexibility of schema-less database systems like MongoDB, this could be a perfect fit for your project.
-
-[[Source on GitHub](http://github.com/jamesgolick/friendly)] [[Homepage](http://friendlyorm.com/)]

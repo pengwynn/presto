@@ -1,9 +1,0 @@
-repo: itod/fluidium
-date: Wed Dec 16 13:53:17 -0600 2009
-categories: github,osx,desktop,ssb
-
-#  Fluidium: Native Mac OS X Browser Platform based on WebKit
-
-More great stuff from [@itod](http://twitter.com/itod), Fluidium is a Native Mac OS X Browser Platform based on WebKit with a Cocoa plug-in architecture, tabs, userscripting, userstyles, URL shortcuts, Twitter integration, more.
-
-[[Source on GitHub](http://github.com/itod/fluidium)]

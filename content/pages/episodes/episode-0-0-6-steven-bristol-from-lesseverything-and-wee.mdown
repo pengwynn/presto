@@ -1,8 +1,0 @@
-date: Tue Dec 15 10:24:00 -0600 2009
-categories: erlang,guest-hosts,javascript,less,rails,ruby,twitter,audio
-
-#  Episode 0.0.6 - Steven Bristol from LessEverything and weekly news
-
-In this episode, [Adam](http://twitter.com/adamstac), [Wynn](http://twitter.com/pengwynn), and [Steven Bristol](http://twitter.com/stevenbristol) of [LessEverything](http://lesseverything.com) fame discuss [Erlang](http://thechangelog.com/post/270600791/otp-kickoff-kick-off-a-new-erlang-otp-project), [Javascript on the server](http://thechangelog.com/post/265338825/picard-a-micro-framekwork-for-node-js), [Lighthouse](http://thechangelog.com/post/272944314/fresnel-a-console-app-to-manage-lighthouse), [Docsplit](http://thechangelog.com/post/273398559/docsplit-break-apart-documents-into-images-text), [Rackamole](http://thechangelog.com/post/273051493/rackamole-track-user-interactions-with-your-web-site)/[whackamole](http://thechangelog.com/post/273052279/wackamole-reporting-on-the-gathered-rackamole-data), unfollowing under-performing Twitter peeps, and suing domain squatters.
-
-<script src="http://www.buzzsprout.com/105/1935-episode-0-0-6-steven-bristol-from-lesseverything-and-weekly-news.js?player=small" type="text/javascript" charset="utf-8"></script>

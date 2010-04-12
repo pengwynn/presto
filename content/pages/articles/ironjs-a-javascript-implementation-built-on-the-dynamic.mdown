@@ -1,9 +1,0 @@
-repo: fholm/IronJS
-date: Sun Jan 24 17:36:37 -0600 2010
-categories: github,dotent,csharp,javascript,dynamic
-
-#  IronJS - A Javascript implementation built on the Dynamic Language Runtime for .NET
-
-Want to embed <del>JavaScript</del> ECMAScript 3.0 into your .NET apps? IronJS from [@fjholmstrom](http://twitter.com/fjholmstrom) aims to let you do just that. Recently released, it has already passed an important milestone by [compiling jQuery](http://ugh.cc/ironjs-now-compiles-jquery/).
-
-[[Source on GitHub](http://github.com/fholm/IronJS)] [[Homepage](http://ironjs.com)]

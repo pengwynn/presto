@@ -1,9 +1,0 @@
-repo: nzakas/computer-science-in-javascript
-date: Thu Jan 21 08:07:56 -0600 2010
-categories: github,javascript,computer-science
-
-#  JavaScript as a teaching tool: Learn classic computer science approaches using a language you probably already know
-
-[Nicholas Zakas](http://github.com/nzakas) has created a repository of classic computer science paradigms, algorithms, and approaches written in JavaScript including Base64 encoding, linked lists, bubble sorts, and more.
-
-[[Source on GitHub](http://github.com/nzakas/computer-science-in-javascript)] [[Follow @slicknet](http://twitter.com/slicknet/)]

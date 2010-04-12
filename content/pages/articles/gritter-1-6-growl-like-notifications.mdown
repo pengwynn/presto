@@ -1,9 +1,0 @@
-repo: jboesch/Gritter
-date: Thu Dec 03 14:32:00 -0600 2009
-categories: github,jquery,growl,javascript
-
-#  Gritter 1.6 - A small growl-like notification plugin for jQuery
-
-Neat way to add [Growl](http://growl.info)-like notifications to your jQuery apps. Or you could use [JetPack](https://jetpack.mozillalabs.com/).
-
-[[Source on GitHub](http://github.com/jboesch/Gritter)] [[Homepage](http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/)] [[Demo it!](http://boedesign.com/demos/gritter/)]

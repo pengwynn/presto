@@ -1,5 +1,0 @@
-
-
-#  Haml
-
-Posts tagged with Haml

@@ -1,6 +1,0 @@
-date: Sun Nov 22 00:00:00 -0600 2009
-categories: audio
-
-#  Episode 0.0.1 - Haml Sass and Compass (59:42)
-
-<script src="http://www.buzzsprout.com/105/1805-episode-0-0-1-haml-sass-and-compass.js?player=small" type="text/javascript" charset="utf-8"></script>

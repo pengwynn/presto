@@ -1,9 +1,0 @@
-repo: judofyr/temple
-date: Fri Dec 18 22:45:59 -0600 2009
-categories: github,framework,ruby
-
-#  TEMPLE: Template compilation framework in Ruby
-
-TEMPLE is "Rack" for Templating engines: http://judofyr.net/posts/temple.html Nice! (via [@assaf](http://twitter.com/assaf))
-
-> The idea is to build an engine based on a chain of compilers. A compiler is simply a class which has a method called #compile which takes one arguments. It’s illegal for a compiler to mutate the argument, and it should be possible to use the same instance several times.

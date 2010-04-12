@@ -1,9 +1,0 @@
-repo: http://www.youtube.com/watch?v=EURONfIqJ6o
-date: Wed Nov 25 02:20:00 -0600 2009
-categories: javascript,ui,multi-touch
-
-#  Qt 4.6: The Trailer
-
-Qt is a cross-platform application and UI framework. Qt 4.6’s QtScript implementation is based on WebKit’s JavaScript engine, JavaScriptCore (you might’ve also heard it being referred to as “SquirrelFish” or “SquirrelFish Extreme”).
-
-[[video](http://www.youtube.com/watch?v=EURONfIqJ6o)] [[learn more](http://qt.nokia.com/)]
