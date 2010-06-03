@@ -42,21 +42,21 @@ class Page < FileModel
   end
   
   def date(format = nil)
-    @date ||= if metadata("date")
+    @date ||= if metadata.date
       if format == :xmlschema
-        Time.parse(metadata("date")).xmlschema
+        Time.parse(metadata.date).xmlschema
       else
-        DateTime.parse(metadata("date"))
+        DateTime.parse(metadata.date)
       end
     end
   end
   
   def atom_id
-    metadata("atom id")
+    metadata.atom_id
   end
   
   def read_more
-    metadata("read more") || "Continue reading"
+    metadata.read_more || "Continue reading"
   end
   
   def title
@@ -68,7 +68,7 @@ class Page < FileModel
   end
   
   def summary
-    if summary_text = metadata("summary")
+    if summary_text = metadata.summary
       summary_text.gsub!('\n', "\n")
       case @format
       when :textile
@@ -94,7 +94,7 @@ class Page < FileModel
   end
   
   def categories
-    categories = metadata("categories")
+    categories = metadata.categories
     paths = categories.nil? ? [] : categories.split(",").map { |p| p.strip }
     valid_paths(paths).map { |p| Page.find_by_path(p) }.sort do |x, y|
       x.heading.downcase <=> y.heading.downcase

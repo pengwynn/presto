@@ -128,7 +128,7 @@ describe "atom feed" do
     it "should use pre-defined ID" do
       create_article(:metadata => {
         "date" => "1 January 2009",
-        "atom id" => "use-this-id"
+        "atom_id" => "use-this-id"
       })
       get "/feed"
       body.should have_tag("entry/id", "use-this-id")

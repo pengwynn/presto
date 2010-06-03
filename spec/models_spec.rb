@@ -182,7 +182,8 @@ describe "Page", :shared => true do
         "description" => @description,
         "keywords" => @keywords,
         "summary" => @summary,
-        "read more" => @read_more
+        "read_more" => @read_more,
+        "repo" => "http://github.com/pengwynn/presto"
       })
       @article = Page.find_by_path("article-prefix/my-article")
     end
@@ -223,8 +224,12 @@ describe "Page", :shared => true do
       @article.date.strftime("%d %B %Y").should == @date
     end
     
-    it "should retrieve read more link from metadata" do
+    it "should retrieve read_more link from metadata" do
       @article.read_more.should == @read_more
+    end
+    
+    it "should allow arbitrary access to metadata" do
+      @article.metadata.repo.should == "http://github.com/pengwynn/presto"
     end
     
     it "should retrieve summary text from metadata" do
@@ -234,6 +239,7 @@ describe "Page", :shared => true do
     it "should treat double newline chars as paragraph break in summary" do
       @article.summary.should match(/#{@summary.split('\n\n').last}/)
     end
+    
   end
   
   describe "without metadata" do
@@ -246,7 +252,7 @@ describe "Page", :shared => true do
       @article.to_html.should have_tag("h1", "My article")
     end
     
-    it "should have default read more link text" do
+    it "should have default read_more link text" do
       @article.read_more.should == "Continue reading"
     end
     

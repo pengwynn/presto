@@ -88,7 +88,7 @@ describe "home page" do
       body.should have_tag("p", "Content goes here")
     end
     
-    it "should not display read more link" do
+    it "should not display read_more link" do
       body.should_not have_tag("a", /continue/i)
     end
   end
@@ -99,7 +99,7 @@ describe "home page" do
       @read_more = "Continue at your leisure"
       @article = create_article(:metadata => {
         "summary" => @summary,
-        "read more" => @read_more
+        "read_more" => @read_more
       })
       get "/"
     end
@@ -113,7 +113,7 @@ describe "home page" do
       body.should have_tag("p", @summary.split('\n\n').first)
     end
     
-    it "should display read more link" do
+    it "should display read_more link" do
       body.should have_tag("a[@href=#{@article.abspath}]", @read_more)
     end
   end

@@ -54,7 +54,6 @@ Presto.controllers :pages do
   end
   
   get :attachments, :map => '/attachments/{:filename,(\w|\-|\.)}' do
-    puts params[:filename]
     file = File.join(
         Nesta::Config.attachment_path, params[:filename])
     send_file(file, :disposition => nil)

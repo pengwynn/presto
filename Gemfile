@@ -7,6 +7,7 @@ gem 'thin' # or mongrel
 gem "builder", "2.1.2"
 gem "rdiscount", "1.5.8"
 gem "RedCloth", "4.2.2"
+gem "hashie", "~> 0.2.0"
 
 # Component requirements
 gem 'haml'

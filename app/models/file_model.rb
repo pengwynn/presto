@@ -2,7 +2,7 @@ class FileModel
   FORMATS = [:mdown, :haml, :textile]
   @@cache = {}
   
-  attr_reader :filename, :mtime
+  attr_reader :filename, :mtime, :metadata
 
   def self.model_path(basename = nil)
     Nesta::Config.content_path(basename)
@@ -71,20 +71,16 @@ class FileModel
   end
   
   def description
-    metadata("description")
+    metadata.description
   end
   
   def keywords
-    metadata("keywords")
+    metadata.keywords
   end
 
   private
     def markup
       @markup
-    end
-
-    def metadata(key)
-      @metadata[key]
     end
     
     def paragraph_is_metadata(text)
@@ -93,7 +89,7 @@ class FileModel
     
     def parse_file
       first_para, remaining = File.open(@filename).read.split(/\r?\n\r?\n/, 2)
-      @metadata = {}
+      @metadata = Hashie::Mash.new
       if paragraph_is_metadata(first_para)
         @markup = remaining
         for line in first_para.split("\n") do
