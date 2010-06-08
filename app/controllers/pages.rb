@@ -48,7 +48,7 @@ Presto.controllers :pages do
     @title = @page.title
     @description = @page.description
     @keywords = @page.keywords
-    render "themes/#{Nesta::Config.theme}/page", :layout => "themes/#{Nesta::Config.theme}/application".to_sym
+    render "themes/#{Nesta::Config.theme}/#{@page.template}", :layout => @page.layout
   end
   
 

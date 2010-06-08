@@ -20,6 +20,7 @@ class Page < FileModel
       end
       pages
     end
+    
   end
 
   extend ClassMethods
@@ -77,6 +78,15 @@ class Page < FileModel
         RDiscount.new(summary_text).to_html
       end
     end
+  end
+  
+  def layout
+    layout_name = self.metadata.layout || 'application'
+    "themes/#{Nesta::Config.theme}/#{layout_name}".to_sym
+  end
+  
+  def template
+    self.metadata.template || 'page'
   end
   
   def body
