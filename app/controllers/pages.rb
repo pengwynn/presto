@@ -1,22 +1,5 @@
 Presto.controllers :pages do
-  # get :index, :map => "/foo/bar" do
-  #   session[:foo] = "bar"
-  #   render 'index'
-  # end
 
-  # get :sample, :map => "/sample/url", :respond_to => [:any, :js] do
-  #   case content_type
-  #     when :js then ...
-  #     else ...
-  # end
-
-  # get :foo, :with => :id do
-  #   "Maps to url '/foo/#{params[:id]}'"
-  # end
-
-  # get "/example" do
-  #   "Hello world!"
-  # end
   
   before do
     @menu_items = Page.menu_items
@@ -35,13 +18,13 @@ Presto.controllers :pages do
     @title = "#{@title} - #{@subtitle}"
     @articles = Page.find_articles[0..7]
     @body_class = "home"
-    render 'pages/index'
+    render "themes/#{Nesta::Config.theme}/index", :layout => "themes/#{Nesta::Config.theme}/application".to_sym
   end
   
   get :feed, :map => '/feed' do
     content_type :xml, :charset => "utf-8"
     @articles = Page.find_articles.select { |a| a.date }[0..9]
-    render 'pages/atom'
+    render "themes/#{Nesta::Config.theme}/atom"
   end
   
   get :sitemap, :map => "/sitemap.xml" do
@@ -50,7 +33,7 @@ Presto.controllers :pages do
     @last = @pages.map { |page| page.last_modified }.inject do |latest, page|
       (page > latest) ? page : latest
     end
-    render 'pages/sitemap'
+    render "themes/#{Nesta::Config.theme}/sitemap"
   end
   
   get :attachments, :map => '/attachments/{:filename,(\w|\-|\.)}' do
@@ -65,7 +48,8 @@ Presto.controllers :pages do
     @title = @page.title
     @description = @page.description
     @keywords = @page.keywords
-    render 'pages/page'
+    render "themes/#{Nesta::Config.theme}/page", :layout => "themes/#{Nesta::Config.theme}/application".to_sym
   end
+  
 
 end

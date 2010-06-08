@@ -35,7 +35,7 @@ module Nesta
     end
     
     def self.theme
-      configuration["theme"]
+      configuration["theme"] || "default"
     end
     
     def self.google_analytics_code

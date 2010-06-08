@@ -7,8 +7,8 @@
   = @page.heading
 
 #sidebar
-  = partial 'pages/categories'
-  = partial 'pages/feed'
+  = theme_partial 'categories'
+  = theme_partial 'feed'
 
 #content
   - if @page.date
@@ -16,13 +16,13 @@
   ~ @page.to_html
 
   - @page.pages.each do |page|
-    = partial 'pages/summary', :locals => { :article => page, :heading => :h3 }
+    = theme_partial 'summary', :locals => { :article => page, :heading => :h3 }
 
   - unless @page.articles.empty?
     %h2.articles= "Articles on #{@page.heading}"
   
   - @page.articles.each do |article|
-    = partial 'pages/summary', :locals => { :article => article, :heading => :h3 }
+    = theme_partial 'summary', :locals => { :article => article, :heading => :h3 }
 
   - unless @page.categories.empty?
     .categories
@@ -30,6 +30,6 @@
       - @page.categories.each do |category|
         %a{ :href => category.abspath }= category.heading
 
-  = partial 'pages/social'
-  = partial 'pages/feed', :locals => { :title => @site_title }
-  = partial 'pages/comments'
+  = theme_partial 'social'
+  = theme_partial 'feed', :locals => { :title => @site_title }
+  = theme_partial 'comments'
