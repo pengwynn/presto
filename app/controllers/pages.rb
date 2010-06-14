@@ -29,7 +29,7 @@ Presto.controllers :pages do
   
   get :sitemap, :map => "/sitemap.xml" do
     content_type :xml, :charset => "utf-8"
-    @pages = Page.find_all
+    @pages = Page.find_all.select{|p| p.metadata.sitemap or p.metadata.sitemap.blank?}
     @last = @pages.map { |page| page.last_modified }.inject do |latest, page|
       (page > latest) ? page : latest
     end
